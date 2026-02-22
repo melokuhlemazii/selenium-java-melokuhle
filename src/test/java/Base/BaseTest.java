@@ -9,6 +9,6 @@ public class BaseTest {
     public final String url = "https://ndosisimplifiedautomation.vercel.app/";
     public final String browserChoice = "chrome";
 
-    public final WebDriver driver = browserFactory.BrowserFactory.startBrowser(browserChoice, url);
+    public final WebDriver driver = browserFactory.startBrowser(browserChoice, url);
 
 }
