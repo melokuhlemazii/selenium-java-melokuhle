@@ -1,7 +1,8 @@
+package Basics;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -30,9 +31,5 @@ public class loginToNdosiwebsite {
 
         boolean isDashboardVisible = driver.findElement(dashboardElement).isDisplayed();
         Assert.assertTrue(isDashboardVisible, "Login failed - Dashboard not visible");
-
-        driver.quit();
-
-
     }
 }
