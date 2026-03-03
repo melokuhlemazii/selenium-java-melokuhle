@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class LoginPage {
-    @FindBy(xpath = "https://ndosisimplifiedautomation.vercel.app/#overview" )
+    @FindBy(xpath = "//*[@id=\"app-root\"]/nav/div[1]/div[3]/button/span[2]")
     WebElement loginButton;
 
     @FindBy(id = "login-email")
